@@ -1,0 +1,2 @@
+[console_scripts]
+solcx-select = solcx_select:main
