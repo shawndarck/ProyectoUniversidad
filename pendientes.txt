@@ -1,0 +1,6 @@
+1. crear variable de entorno para python
+2. install pip install blockchain
+3. reconstruir el proyecto en base al ejemplo
+4. crear documentación formato apa
+5. guias de codigo desarrollado.
+6. enmarcar teorias de pruebas de istqb
