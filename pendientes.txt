@@ -1,0 +1,28 @@
+1. crear variable de entorno para python
+2. install pip install blockchain
+3. reconstruir el proyecto en base al ejemplo
+4. crear documentación formato apa
+5. guias de codigo desarrollado.
+6. enmarcar teorias de pruebas de istqb
+
+
+
+documento incial para la explicacion de como funciona una blockchain
+Para los documentos oficiales realizar graficos que expliquen los procedimientos y funcionamiento de la red
+
+
+para la introducción historia del blockchain funcionamiento de p2p o peer to peer 
+funcionamiento general del blockchain
+
+
+
+documentos 
+https://joss.theoj.org/papers/10.21105/joss.05265.pdf
+https://arxiv.org/pdf/1910.10601
+https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smr.2672
+https://hal.science/hal-01988364/document
+https://www.semanticscholar.org/paper/Blockchain-Practices%2C-Potentials%2C-and-Perspectives-Kouhizadeh-Sarkis/d0cf0cf487ea5197ecfabfabed2e2f978a49dd96
+https://institucional.us.es/revistas/Ius_Et_Scientia/vol9_2/IUS_et_Scientia_vol_9_2_07_martin-meneses.pdf
+https://bitcoin.org/bitcoin.pdf
+https://latam.kaspersky.com/blog/que-es-un-hash-y-como-funciona/2806/?srsltid=AfmBOoqZjE1RijoAKnekBzCJAlJJaQ82G5U3o065edEseX6NE-0Ldl0l
+https://www.ionos.com/es-us/digitalguide/servidores/know-how/que-es-p2p-peer-to-peer/?srsltid=AfmBOor_CFzey1GuT8oniN84ECR3wFoKiznywimrFyiakndfgGmkAoHm
