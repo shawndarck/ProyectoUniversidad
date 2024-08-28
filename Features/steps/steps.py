@@ -1,4 +1,5 @@
-from behave import given, when, then
+import behave
+import given, when, then
 from web3 import Web3
 from eth_tester import EthereumTester, PyEVMBackend
 from solcx import compile_source
