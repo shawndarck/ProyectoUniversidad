@@ -1,8 +1,26 @@
 import behave
+import solcx
 from web3 import Web3
 from eth_tester import EthereumTester, PyEVMBackend
 from solcx import compile_source
-from solcx import compile_standard, install_solc
+#from solcx import compile_standard, install_solc
+
+
+solcx.install_solc('0.8.7')
+
+solcx.set_solc_version('0.8.7')
+
+compiled_sol = solcx.compile_files(
+
+    ["contracts/MyContract.sol"],
+
+    base_path="contracts/"
+)
+
+# Imprimir el resultado de la compilación
+
+print(compiled_sol)
+
 
 #Test
 
