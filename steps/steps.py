@@ -6,7 +6,7 @@ from solcx import compile_source
 #from solcx import compile_standard, install_solc
 
 
-solcx.install_solc('0.8.7')
+solcx.install_solc('0.8.7') #0.8.7'
 
 solcx.set_solc_version('0.8.7')
 
@@ -38,7 +38,7 @@ def step_impl(context):
 
     # Código del contrato inteligente
     contract_source_code = '''
-    pragma solidity ^0.5.0;
+    pragma solidity ^0.8.7;
     contract MyToken {
         mapping(address => uint) public balances;
         constructor() public {
@@ -58,7 +58,7 @@ def step_impl(context):
     # Desplegar contrato
     MyToken = w3.eth.contract(abi=contract_interface['abi'], bytecode=contract_interface['bin'])
     tx_hash = MyToken.constructor().transact({'from': context.account_a})
-    tx_receipt = w3.eth.waitForTransactionReceipt(tx_hash)
+    tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
     context.contract_address = tx_receipt.contractAddress
     context.token_contract = w3.eth.contract(
         address=context.contract_address,
