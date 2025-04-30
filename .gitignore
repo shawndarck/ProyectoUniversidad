@@ -3,6 +3,6 @@
 /workspace.xml
 /grado/
 /py-solc-x/
-.idea/
-grado/
+.*idea/
+.*grado/
 py-solc-x/
