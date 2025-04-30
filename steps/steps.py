@@ -8,7 +8,7 @@ from solcx import compile_source
 #from solcx import compile_standard, install_solc
 
 
-solcx.install_solc('0.8.7') #0.8.7'
+solcx.install_solc('0.8.7') #0.8.5 otra version
 
 solcx.set_solc_version('0.8.7')
 
